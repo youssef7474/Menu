@@ -1,0 +1,26 @@
+.color-body{
+  background-color: #f8f8f8;
+  min-height: 100vh;
+}
+.underline{
+  height: 1px;
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid #b45b35;
+}
+.btn-cat{
+  background-color: transparent;
+  padding: 5px 20px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  margin: 5px;
+}
+
+
+.btn-cat:hover{
+   background-color:#b45b35;
+   color: white;
+}
+
+

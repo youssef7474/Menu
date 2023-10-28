@@ -1,0 +1,11 @@
+
+.flexBoxButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.btn-cat.selected {
+    background-color:#b45b35;
+    color: white;
+  }

@@ -1,0 +1,21 @@
+.gridBox{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 40px;
+}
+@media (max-width: 767px)
+{
+    .gridBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.hovercarditem{
+    transition: 0.8s;
+    
+}
+.hovercarditem:hover {
+    transform: scale(1.1);
+  }

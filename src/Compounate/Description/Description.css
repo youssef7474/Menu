@@ -1,0 +1,9 @@
+@media (max-width:720px){
+    .imagedesc{
+        width: 100%;
+    }
+}
+.imagedesc{
+    margin-bottom: 20px;
+    
+}
